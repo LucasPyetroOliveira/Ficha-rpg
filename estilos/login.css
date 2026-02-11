@@ -49,12 +49,27 @@ section#login {
     transform: translate(-50%, -50%);
 }
 
+section#login > div#imagem {
+    display: block;
+    background: #181C20 url(../imagens/pexels-nika-benedictova-24565203-7150643.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 200px;
+}
+
 section#login > div#formulario {
     display: block;
     padding: 10px;
 }
 
 div#formulario h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div#formulario p {
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -65,7 +80,7 @@ form > div.campo {
     display: block;
     height: 40px;
     border-radius: 8px;
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 div.campo > label {
@@ -95,4 +110,16 @@ div.campo > input {
 
 div.campo > input:focus-within {
     background-color: #590303;
+}
+
+button {
+    background-color: #070a0d29;
+    color: white;
+    width: 60px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
 }
