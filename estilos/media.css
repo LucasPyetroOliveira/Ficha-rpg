@@ -30,6 +30,8 @@
         float: right;
         width: 40%;
         height: 100%;
+        background: black url(../imagens/pexels-stephen-hardy-32566714-7018123.jpg);
+        background-position: bottom center;
     }
 
     section#login > div#formulario {
