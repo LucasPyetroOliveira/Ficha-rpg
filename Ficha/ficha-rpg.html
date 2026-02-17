@@ -8,45 +8,51 @@
 </head>
 <body>
    <header>
-    <div>
-        <p>
-            <label for="nome">Personagem</label>
-            <input type="text" name="nome" id="nome">
-        </p>
+    <div id="name">
+        <div class="nome">
+            <p>
+                <label for="nome" class="play">Personagem:</label>
+                <input type="text" name="nome" id="nome" class="jogador">
+            </p>
+        </div>
+        <div class="jog">
+            <p>
+                <label for="jog" class="play">Jogador:</label>
+                <input type="text" name="jog" id="jog" class="jogador">
+            </p>
+        </div>
     </div>
-    <div>
-        <p>
-            <label for="jog">Jogador</label>
-            <input type="text" name="jog" id="jog">
-        </p>
-    </div>
+    </header> 
     <main>
         <section>
-            <div>
-                <label for="ialg">ALG</label>
+            <div class="alg">
+                <label for="ialg" class="aalg">ALG</label>
                 <input type="text" name="alg" id="ialg">
             </div>
-            <div>
-                <label for="ifor">FOR</label>
-                <input type="text" name="for" id="ifor">
+            <div class="l1">
+                <div class="for">
+                    <label for="ifor" class="ffor">FOR</label>
+                    <input type="text" name="for" id="ifor">
+                </div>
+                <div class="int">
+                    <label for="iint" class="iint">INT</label>
+                    <input type="text" name="INT" id="iint">
+                </div>
             </div>
-            <div>
-                <label for="iint">INT</label>
-                <input type="text" name="INT" id="iint">
-            </div>
-            <div>
-                <label for="ipre">PRE</label>
-                <input type="text" name="person" id="ipre">
-            </div>
-            <div>
-                <label for="ivig">VIG</label>
-                <input type="text" name="VIG" id="ivig">
+            <div class="l2">
+                <div class="pre">
+                    <label for="ipre" class="ppre">PRE</label>
+                    <input type="text" name="person" id="ipre">
+                </div>
+                <div class="vig">
+                    <label for="ivig" class="vvig">VIG</label>
+                    <input type="text" name="VIG" id="ivig">
+                </div>
             </div>
         </section>
     </main>
     <footer>
 
     </footer>
-   </header> 
 </body>
 </html>

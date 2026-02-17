@@ -1,0 +1,151 @@
+.alg {
+    background-color: rgba(0, 0, 0, 0.153);
+    border: 3px solid rgb(0, 136, 255);
+    border-radius: 50px;
+    margin-left: 105px;
+    margin-bottom: -30px;
+    height: 100px;
+    width: 100px;
+}
+
+label.aalg {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#ialg {
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.for {
+    background-color: rgba(0, 0, 0, 0.221);
+    border: 3px solid rgb(0, 136, 255);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+label.ffor {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#ifor {
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.int {
+    background-color: rgba(0, 0, 0, 0.137);
+    border: 3px solid rgb(0, 136, 255);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+label.iint {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#iint{
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.pre {
+    background-color: rgba(0, 0, 0, 0.147);
+    border: 3px solid rgb(0, 136, 255);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin-left: 41px;
+    margin-top: 10px;
+}
+
+label.ppre {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#ipre {
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.vig {
+    background-color: rgba(0, 0, 0, 0.116);
+    border: 3px solid rgb(0, 136, 255);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+label.vvig {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#ivig {
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.l1{
+    display: flex;
+    gap: 100px;
+    width: 325px;
+}
+
+.l2 {
+    width: 300px;
+    display: flex;
+    gap: 15px;
+}

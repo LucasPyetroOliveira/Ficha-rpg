@@ -1,6 +1,263 @@
-@font-face{
+ @charset "UTF-8";
+
+ @font-face {
             font-family: Modia;
-            src:url("../fontee/Moria_DF.TTF") format('opentype'), url(Moria_DF.TTF) format("truetype");
+            src:url("../fontes/Moria_DF.TTF") format('opentype'), url(Moria_DF.TTF) format("truetype");
             font-weight: normal;
             font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Delius&family=Knewave&family=Yuji+Boku&display=swap');
+
+@font-face {
+    font-family: Delius;
+    src: url('../fontes/Delius-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+ :root {
+    --cor01: #070A0D; /* preto*/
+    --cor02: #400101; /* vinho*/
+    --cor03: #590303; /* vinho mais claro*/
+    --cor04: #8C1C1C; /* vermelho mais escuro*/
+    --cor05: #BF2A2A; /* vermelho suco*/
+    --cor06: #F23E2E; /* vermelho/rosa sla*/
+    --cor07: #D90D1E; /* vermelho/rosa sla mais claro*/
+    --cor08: #E89022; /* amarelo conhecimento*/
+
+    --fonte-padão: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-Delius: 'Delius', cursive;
+ }
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+body, html {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #070A0D url(../imagens/pexels-aleksandar-radovanovic-436503074-15421709.jpg) no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 260px;
+    height: 60px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+div.nome {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+div.jog {
+    margin-left: 30px;
+}
+
+.play {
+    color: white;
+    font-family: Modia;
+    font-size: 0.7em;
+}
+
+.jogador {
+    width: 140px;
+    font-family: Modia;
+}
+
+#name {
+    display: block;
+}
+
+main {
+    background-color: #070a0d95;
+    width: 260px;
+    height: 100vh;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.alg {
+    background-color: rgba(0, 0, 0, 0.153);
+    border: 3px solid white;
+    border-radius: 50px;
+    margin-left: 93px;
+    margin-bottom: -20px;
+    height: 75px;
+    width: 75px;
+}
+
+label.aalg {
+    font-family: Modia;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#ialg {
+    color: white;
+    background-color: #070a0d00;
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    border: 2px solid rgba(255, 255, 255, 0.584);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.for {
+    background-color: rgba(0, 0, 0, 0.221);
+    border: 3px solid #D90D1E;
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+}
+
+label.ffor {
+    font-family: Modia;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#ifor {
+    color: #D90D1E;
+    background-color: #070a0d00;
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    border: 2px solid #d90d1e96;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.int {
+    background-color: rgba(0, 0, 0, 0.137);
+    border: 3px solid #E89022;
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+}
+
+label.iint {
+    font-family: Modia;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#iint{
+    color: #E89022;
+    background-color: #070a0d00;
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    border: 2px solid #e88f228c;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.pre {
+    background-color: rgba(0, 0, 0, 0.147);
+    border: 3px solid #070A0D;
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+    margin-left: 41px;
+    margin-top: 10px;
+}
+
+label.ppre {
+    font-family: Modia;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#ipre {
+    background-color: #939aa078;
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.vig {
+    background-color: rgba(0, 0, 0, 0.116);
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+    margin-top: 10px;
+}
+
+label.vvig {
+    font-family: Modia;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#ivig {
+    color: blueviolet;
+    background-color: #070a0d00;
+    font-family: Modia;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    border: 2px solid rgba(137, 43, 226, 0.584);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.l1{
+    display: flex;
+    gap: 100px;
+    width: 325px;
+}
+
+.l2 {
+    width: 300px;
+    display: flex;
+    gap: 15px;
 }
