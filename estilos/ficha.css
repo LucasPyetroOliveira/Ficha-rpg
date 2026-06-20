@@ -261,3 +261,36 @@ label.vvig {
     display: flex;
     gap: 15px;
 }
+
+#dado{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 3px solid rgb(204, 220, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(224, 224, 33);
+    background: #000000db;
+}
+
+.rolando{
+    animation: girar 1s ease-in-out;
+}
+
+@keyframes girar{
+    0% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(180deg) scale(1.2); }
+    50% { transform: rotate(360deg) scale(0.8); }
+    75% { transform: rotate(540deg) scale(1.2); }
+    100% { transform: rotate(720deg) scale(1); }
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}

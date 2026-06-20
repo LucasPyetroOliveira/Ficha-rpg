@@ -50,9 +50,36 @@
                 </div>
             </div>
         </section>
+
+        <div id="dado">20</div>
+
+        <button onclick="rolarD20()">Rolar D20</button>
+
     </main>
     <footer>
 
     </footer>
+
+    <script>
+    function rolarD20(){
+        const dado = document.getElementById("dado");
+
+        dado.classList.add("rolando");
+
+        let intervalo = setInterval(() => {
+            dado.textContent = Math.floor(Math.random() * 20) + 1;
+        }, 50);
+
+        setTimeout(() => {
+            clearInterval(intervalo);
+
+            const resultado = Math.floor(Math.random() * 20) + 1;
+            dado.textContent = resultado;
+
+            dado.classList.remove("rolando");
+        }, 1000);
+    }
+    
+    </script>
 </body>
 </html>
